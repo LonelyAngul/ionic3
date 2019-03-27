@@ -1,0 +1,73 @@
+<ion-content class="transparent-header">
+  <div class="dvs-parent">
+    <ion-row>
+      <ion-col>
+        <ion-row>
+          <ion-col>
+            <ion-list inset class="no-border">
+              <ion-item>
+                <ion-label fixed>账号</ion-label>
+                <ion-input type="text" aria-placeholder="请输入账号" [(ngModel)]="username" clearInput=true></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label fixed>密码</ion-label>
+                <ion-input type="password" [(ngModel)]="password" clearInput=true></ion-input>
+              </ion-item>
+              <ion-item no-lines>
+                <label for="" item-right text-right>记住密码</label>
+                <ion-toggle [(ngModel)]="IsRremoveStore"></ion-toggle>
+              </ion-item>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <div style="text-align: center">
+              <button ion-button round type="submit" class="login-button" (click)="login()" [disabled]='!username||!password||password.length<3'>登&nbsp;&nbsp;录</button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <ion-header>
+    <ion-navbar hideBackButton="true" hide-nav-bar="true">
+      <ion-title text-center>登录</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content padding>
+  <ion-item>
+    <ion-icon ios="ios-person" md="md-person" item-left [ngStyle]="iconStyle"></ion-icon>
+    <ion-input type="text" aria-placeholder="请输入账号" [(ngModel)]="username" clearInput></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon ios="ios-key" md="md-key" item-left [ngStyle]="iconStyle"></ion-icon>
+    <ion-input type="password" [(ngModel)]="password" clearInput></ion-input>
+  </ion-item>
+
+  <ion-item no-lines>
+    <label for="" item-right text-right>记住密码</label>
+    <ion-toggle [(ngModel)]="IsRremoveStore"></ion-toggle>
+  </ion-item>
+
+  <div padding>
+    <button ion-button block color="twitter" (click)="login()" [disabled]='!username||!password||password.length<3'>登录</button>
+  </div>
+</ion-content> -->

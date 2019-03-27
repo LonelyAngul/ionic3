@@ -1,0 +1,13 @@
+{
+  "name": "I3",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://mq.x2erp.com:8790"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+page-detail {}
+
+.action-sheet-md {
+  text-align: center;
+}
+
+.action-sheet-md .action-sheet-container {
+  padding: 0 10px;
+}
+
+.action-sheet-md .action-sheet-group {
+  overflow: hidden;
+  margin-bottom: 8px;
+  border-radius: 13px;
+  background: #f9f9f9;
+}
+
+.action-sheet-md .action-sheet-group:last-child {
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.action-sheet-md .action-sheet-title {
+  padding: 1.5rem;
+  border-bottom: 0.55px solid #d6d6da;
+  border-radius: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.action-sheet-md .action-sheet-button {
+  margin: 0;
+  padding: 10px;
+  min-height: 4.5rem !important;
+  border-bottom: 1px solid #d6d6da;
+  font-size: 1.6rem;
+  color: #007aff;
+  background: transparent;
+}
+
+.action-sheet-md .action-sheet-button:last-child {
+  border-bottom: 0;
+}
+
+
+.action-sheet-md .action-sheet-cancel {
+  font-weight: 600;
+  background: #fff;
+}
+
+.action-sheet-md .action-sheet-group:last-child {
+  padding-bottom: 0rem;
+}
+
+.zm-action-button {
+  .button-inner {
+    justify-content: center !important;
+  }
+}
